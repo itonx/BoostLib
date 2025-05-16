@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <Title>BoostLib</Title>
+    <Authors>$(AssemblyName),itonx</Authors>
+    <Description>BoostLib helps you to accelerate your development with ease.</Description>
+    <PackageTags>boostlib,boost,lib,accelerate,development,libraries,library,variables,environment</PackageTags>
+  </PropertyGroup>
+
+</Project>
