@@ -7,8 +7,20 @@
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
     <Title>BoostLib</Title>
     <Authors>$(AssemblyName),itonx</Authors>
-    <Description>BoostLib helps you to accelerate your development with ease.</Description>
+    <Description>This library is a collection of various C# utilities and extensions that can be used to enhance the functionality of your C# projects.</Description>
     <PackageTags>boostlib,boost,lib,accelerate,development,libraries,library,variables,environment</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryType>GitHub</RepositoryType>
+    <RepositoryUrl>https://github.com/itonx/BoostLib</RepositoryUrl>
+	<VersionPrefix>1.0.0</VersionPrefix>
+	<VersionSuffix>alpha</VersionSuffix>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
